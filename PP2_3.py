@@ -2,10 +2,22 @@
 
 def q1(): 
   #Write Assignment code here
+ word=input("In: ")
+ if word.endswith("y"):
+  print("-ies")
+ elif word.endswith("ey"):
+  print("-eys")
+ elif word.endswith("ife"):
+  print("-ives")
+ else:
+  print("-s")
+
+  
 
 
 def q2(): 
   #Write Assignment code here
+  print()
 
 
 
